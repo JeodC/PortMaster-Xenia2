@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "name": "legendofxenia2.zip",
+  "items": [
+    "Legend of Xenia 2.sh",
+    "legendofxenia2/"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Legend of Xenia 2",
+    "porter": [
+	  "MadShmupper"
+    ],
+    "desc": "Tiny Zelda-like with a resolution of just 64x64 pixels. Also it's a sequel to Legend of Xenia so that's cool I guess.",
+    "inst": "Download the windows version of the game from https://itch.io/queue/c/371408/legend-of-xenia?game_id=168318 and extract data.win to /ports/LegendofXenia2/gamedata.",
+    "genres": [
+      "fps"
+    ],
+    "image": "legendofxenia2.screenshot.png",
+    "rtr": false,
+    "exp": false,
+    "runtime": null,
+    "reqs": []
+  }
+}
