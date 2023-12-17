@@ -16,13 +16,13 @@ $ESUDO chmod 666 /dev/tty1
 printf "\033c" > /dev/tty0
 printf "\033c" > /dev/tty1
 
-GAMEDIR="/$directory/ports/XeniaTrilogy/games/LegendofXenia2"
+GAMEDIR="/$directory/ports/LegendofXenia2"
 if [ -f "/etc/os-release" ]; then
   source "/etc/os-release"
 fi 
 
 if [ "$OS_NAME" != "JELOS" ]; then
-  export LD_LIBRARY_PATH="/usr/lib:/usr/lib32:/$directory/ports/XeniaTrilogy/games/lib"
+  export LD_LIBRARY_PATH="/usr/lib:/usr/lib32:/$directory/ports/LegendofXenia2/lib"
 fi
  
 cd "$GAMEDIR"
